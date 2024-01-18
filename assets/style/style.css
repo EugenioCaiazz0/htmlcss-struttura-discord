@@ -86,6 +86,7 @@ nav ul{
 .advertising-content.maxi{
     height: 940px;
     background-color: #228b23;
+    border: 1px dotted black;
 }
 
 .advertising-content.reverse{
@@ -110,4 +111,41 @@ nav ul{
     width: 950px;
     height: 410px;
     background-color:#ec81ec;
+}
+
+footer .container{
+    background-color: #22272a;
+    height: 780px;
+}
+
+.footer-content{
+    width: 1250px;
+    display: flex;
+}
+
+.footer-links{
+    width: 380px;
+    height: 600px;
+    background-color: #f08080;
+    border: 1px dotted black;
+}
+
+.footer-buttons-column{
+    width: 220px;
+    height: 600px;
+    background-color: #21afa7;
+     border: 1px dotted black;
+}
+
+.footer-content.page-end{
+    justify-content: space-between;
+    height:80px;
+    width: 1250px;
+    background-color:#7effd5 ;
+}
+
+.footer-element{
+    height: 40px;
+    width: 70px;
+    background-color:#ffb6c2;
 }
