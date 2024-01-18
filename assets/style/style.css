@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #acd8e6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted black;
+}
+
+ header .container{
+    height: 50px;
+    background-color: #daa520;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 2px dotted black;
+    height: 100%;
+}
+
+nav{
+    width: 750px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+.login-button{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 520px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jumbotron{
+    width: 950px;
+    height: 410px;
+    background-color:#ec81ec;
+
+}
