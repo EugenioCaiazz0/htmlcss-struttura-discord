@@ -121,6 +121,7 @@ footer .container{
 .footer-content{
     width: 1250px;
     display: flex;
+    align-items: center;
 }
 
 .footer-links{
@@ -142,6 +143,10 @@ footer .container{
     height:80px;
     width: 1250px;
     background-color:#7effd5 ;
+}
+
+.container.mini{
+    height: 120px;
 }
 
 .footer-element{
